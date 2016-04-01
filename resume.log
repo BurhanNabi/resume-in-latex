@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  1 APR 2016 10:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.8)  1 APR 2016 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,37 +225,59 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layouthoffset=\dimen117
 \Gm@layoutvoffset=\dimen118
 \Gm@dimlist=\toks17
-) (./resume.aux)
+)
+(/home/burhan/texmf/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip47
+\aftertitleunit=\skip48
+\ttl@plus=\dimen119
+\ttl@minus=\dimen120
+\ttl@toksa=\toks18
+\titlewidth=\dimen121
+\titlewidthlast=\dimen122
+\titlewidthfirst=\dimen123
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
-\scratchdimen=\dimen119
-\scratchbox=\box26
+\scratchdimen=\dimen124
+\scratchbox=\box27
 \nofMPsegments=\count103
 \nofMParguments=\count104
-\everyMPshowfont=\toks18
+\everyMPshowfont=\toks20
 \MPscratchCnt=\count105
-\MPscratchDim=\dimen120
+\MPscratchDim=\dimen125
 \MPnumerator=\count106
 \makeMPintoPDFobject=\count107
-\everyMPtoPDFconversion=\toks19
+\everyMPtoPDFconversion=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -271,8 +293,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring ON on input line 16.
+\AtBeginShipoutBox=\box28
+Package hyperref Info: Link coloring ON on input line 24.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -282,9 +304,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count108
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./resume.out) (./resume.out)
 \@outlinefile=\write3
@@ -307,7 +329,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 * \textheight=722.7pt
 * \oddsidemargin=-36.135pt
 * \evensidemargin=-36.135pt
-* \topmargin=-18.06749pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -326,66 +348,224 @@ LaTeX Info: Redefining \nameref on input line 16.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <40> not available
-(Font)              size <24.88> substituted on input line 18.
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 27.
 
 <buttons/mail.png, id=4, 44.98132pt x 32.16165pt>
 File: buttons/mail.png Graphic file (type png)
  <use buttons/mail.png>
-Package pdftex.def Info: buttons/mail.png used on input line 22.
+Package pdftex.def Info: buttons/mail.png used on input line 31.
 (pdftex.def)             Requested size: 14.22636pt x 10.17169pt.
 
 <buttons/bitbucket.png, id=6, 180.675pt x 125.11743pt>
 File: buttons/bitbucket.png Graphic file (type png)
 
 <use buttons/bitbucket.png>
-Package pdftex.def Info: buttons/bitbucket.png used on input line 26.
+Package pdftex.def Info: buttons/bitbucket.png used on input line 35.
 (pdftex.def)             Requested size: 19.91684pt x 13.7916pt.
- <buttons/github.png, id=7, 513.92pt x 513.92pt>
+ <buttons/github.png, id=8, 513.92pt x 513.92pt>
 File: buttons/github.png Graphic file (type png)
 
 <use buttons/github.png>
-Package pdftex.def Info: buttons/github.png used on input line 30.
+Package pdftex.def Info: buttons/github.png used on input line 41.
 (pdftex.def)             Requested size: 14.22636pt x 14.22498pt.
- <buttons/phone.png, id=8, 20.88162pt x 20.88162pt>
+ <buttons/phone.png, id=10, 20.88162pt x 20.88162pt>
 File: buttons/phone.png Graphic file (type png)
 
 <use buttons/phone.png>
-Package pdftex.def Info: buttons/phone.png used on input line 34.
+Package pdftex.def Info: buttons/phone.png used on input line 47.
 (pdftex.def)             Requested size: 14.22636pt x 14.2267pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
- [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--50
+
+ []
+
+<buttons/books.png, id=11, 20.88162pt x 20.88162pt>
+File: buttons/books.png Graphic file (type png)
+ <use buttons/books.png>
+Package pdftex.def Info: buttons/books.png used on input line 52.
+(pdftex.def)             Requested size: 28.45274pt x 28.45341pt.
+
+Overfull \hbox (134.5886pt too wide) in paragraph at lines 52--52
+ |[]\OT1/cmr/bx/n/20.74 Education|  
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 53--54
+[][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<buttons/scientist.png, id=12, 80.26517pt x 80.26517pt>
+File: buttons/scientist.png Graphic file (type png)
+
+<use buttons/scientist.png>
+Package pdftex.def Info: buttons/scientist.png used on input line 73.
+(pdftex.def)             Requested size: 28.45274pt x 28.45207pt.
+
+Overfull \hbox (116.30673pt too wide) in paragraph at lines 73--73
+ |[]\OT1/cmr/bx/n/20.74 Projects|  
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 74--75
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 84--84
+[]|\OT1/cmr/m/n/10 Complete and work-ing.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/10 Ph.D Ad-mis-sion
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/10 JAVA, Eclipse, FXML,
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/10 Complete and work-ing.
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 101--101
+[]|\OT1/cmr/m/n/10 Ruby, Ruby On Rails,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+\OT1/cmr/m/n/10 Ma-te-rial De-sign Lite,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+\OT1/cmr/m/n/10 Javascript, CSS/SASS,
+ []
+
+
+Overfull \hbox (18.92456pt too wide) in paragraph at lines 76--105
+ [] 
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13> not available
+(Font)              size <12> substituted on input line 107.
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./buttons/mail.png> <./but
-tons/bitbucket.png> <./buttons/github.png> <./buttons/phone.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+tons/bitbucket.png> <./buttons/github.png> <./buttons/phone.png> <./buttons/boo
+ks.png> <./buttons/scientist.png>]
+<buttons/skills.jpg, id=37, 513.92pt x 513.92pt>
+File: buttons/skills.jpg Graphic file (type jpg)
+ <use buttons/skills.jpg>
+Package pdftex.def Info: buttons/skills.jpg used on input line 112.
+(pdftex.def)             Requested size: 28.45274pt x 28.44997pt.
+
+Overfull \hbox (85.37675pt too wide) in paragraph at lines 112--112
+ |[]\OT1/cmr/bx/n/20.74 Skills|  
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 113--114
+[][][][] 
+ []
+
+<buttons/hobbies.png, id=38, 513.92pt x 513.92pt>
+File: buttons/hobbies.png Graphic file (type png)
+ <use buttons/hobbies.png>
+Package pdftex.def Info: buttons/hobbies.png used on input line 141.
+(pdftex.def)             Requested size: 28.45274pt x 28.44997pt.
+
+Overfull \hbox (113.61823pt too wide) in paragraph at lines 141--141
+ |[]\OT1/cmr/bx/n/20.74 Hobbies|  
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 142--144
+[][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 145.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
+
+<buttons/miscellaneous.png, id=40, 513.92pt x 513.92pt>
+File: buttons/miscellaneous.png Graphic file (type png)
+
+<use buttons/miscellaneous.png>
+Package pdftex.def Info: buttons/miscellaneous.png used on input line 157.
+(pdftex.def)             Requested size: 28.45274pt x 28.44997pt.
+
+Overfull \hbox (172.0311pt too wide) in paragraph at lines 157--157
+ |[]\OT1/cmr/bx/n/20.74 Miscellaneous|  
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 158--159
+[][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+[2 <./buttons/skills.jpg> <./buttons/hobbies.png> <./buttons/miscellaneous.png>
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 15.12pt have occurred.
+(Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 6204 strings out of 495028
- 90892 string characters out of 6181498
- 186906 words of memory out of 5000000
- 9379 multiletter control sequences out of 15000+600000
- 4255 words of font info for 16 fonts, out of 8000000 for 9000
+ 6807 strings out of 495028
+ 98286 string characters out of 6181498
+ 205350 words of memory out of 5000000
+ 9946 multiletter control sequences out of 15000+600000
+ 7530 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,5n,35p,251b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,36p,407b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on resume.pdf (1 page, 107587 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msam10.pfb>
+Output written on resume.pdf (2 pages, 249009 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

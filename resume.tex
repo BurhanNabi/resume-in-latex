@@ -7,16 +7,25 @@
 \usepackage[colorlinks]{hyperref}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage[margin=0.5in, footskip=0.25in]{geometry}
-\topmargin=-0.25in
+\usepackage{titlesec}
+\usepackage{amssymb}
+
+
+\titleformat{\section}
+	{\color{MidnightBlue}\normalfont\fontsize{20pt}{15}\bfseries}{\thesection}{1em}{}
+\titlespacing{\section}
+	{3pt}{5pt}{0pt}[\linewidth]
+	
+%\topmargin=-0.25in
 %\usepackage{adjustbox}
 %\title{Seeking a Tech Intership}
-\date{}
 
 
 \begin{document}
 
-	\centering \fontsize{40}{50}\textbf{ \textcolor{Gray}{Burhan Nabi}}\\
-	\vspace{30pt}
+	\begin{center}
+		\fontsize{20}{50}\textbf{ \textcolor{Gray}{Burhan Nabi}}\\
+	\end{center} 
 
 	%Mail and phone	
 	\includegraphics[width=0.5cm  ]{buttons/mail.png}
@@ -25,21 +34,136 @@
 	\hspace{25pt}
 	\includegraphics[width=0.7cm  ]{buttons/bitbucket.png}
 	\hspace{2pt}
-	\fontsize{10}{12}\textcolor{ProcessBlue}{ \textbf{burhan\_nabi} }
+	\fontsize{10}{12}\textcolor{ProcessBlue}{
+	\href{https://bitbucket.org/burhan_nabi/}{\textbf{burhan\_nabi}}
+	 }
 	\hspace{25pt}
 	\includegraphics[width=0.5cm  ]{buttons/github.png}
 	\hspace{2pt}
-	\fontsize{10}{12}\textcolor{ProcessBlue}{ \textbf{BurhanNabi} }
+	\fontsize{10}{12}\textcolor{ProcessBlue}{ 
+	\href{https://github.com/BurhanNabi}{\textbf{BurhanNabi}}
+	}
 	\hspace{25pt}
 	\includegraphics[width=0.5cm  ]{buttons/phone.png}
 	\hspace{2pt}
-	\fontsize{10}{12}\textcolor{ProcessBlue}{ \textbf{+91-7838-576-234} }
+	\fontsize{10}{12}\textcolor{ProcessBlue}{ \textbf{+91-7838-576-234} }\\
 	
 	
-	
-	%Horizontal Line
-	\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.3pt}}						
-	
-	
-	
+	\section*{\includegraphics[width=1cm]{buttons/books.png}Education}
+		\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.3pt}}
+		\begin{center}
+		    \begin{tabular}{ | p{3cm}  p{3cm}  p{3cm}  p{5cm} |}
+			%\begin{tabular}{l*{4}{c}r}}
+		    \hline
+		    \textbf{Milestone} & \textbf{Affiliation} & \textbf{Year} & \textbf{Summary} \\ \hline
+		    &&&\\
+		  	Grade 10 & CBSE & 2011 &  Secured a 9.6 CGPA \\ 
+		    &&&\\
+		    Grade 12 & CBSE & 2014 &  Secured 95.4 \% \\ 
+			&&&\\
+		   	B.Tech(CSE) & IIIT-Delhi & 2014-Present &  Current CGPA 7.26 \\ 
+			&&&\\
+			\hline
+		    \end{tabular}
+		\end{center}
+		%
+		\hspace*{1.7cm}
+		\textit{\textbf{NOTE:}} A three year gap between classes 10 and 12. An extra year to make up for mistakes.
+		
+	\section*{\includegraphics[width=1cm]{buttons/scientist.png}Projects}
+		\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.3pt}}
+		\begin{center}
+		    \begin{tabular}{ | p{3cm}  p{4cm} p{4cm} p{7cm} |}
+			%\begin{tabular}{l*{4}{c}r}}
+		    \hline
+		    \textbf{Project} & \textbf{Language/Technology} & \textbf{Status} & \textbf{Summary} \\ 
+		    \hline
+		  	Simple Linux Shell & C  & Complete  but \textbf{great} scope for improvement & Wrote a simple shell in C, which can parse the input and execute it. Functionality for I/O redirection and Pipelining. \href{https://bitbucket.org/burhan_nabi/linux-shell}{\textbf{See repository}}.\\ %&&&\\		
+		  	\hline 
+			&&&\\		
+			Likes Predictor for Facebook& JAVA, Eclipse, REST FB API, JAVA Servlets & Complete and working. Could do with some machine learning and a better predicting algorithm.  & A simple Facebook App that predicts the number of likes that your future posts may get based on your previous posts. \href{https://bitbucket.org/burhan_nabi/likes-predictor/}{\textbf{See Reposiory}}\\ 
+			%&&&\\
+			\hline 
+			&&&\\
+		   	Basic File System & C & Complete. Scope for improvement.  & A very simple file system implementation. Keeps track of file in different files using Inodes and Data-Nodes. \href{https://github.com/BurhanNabi/file-system-pushyBoy}{\textbf{See Reposiory}}\\ 
+			%&&&\\		
+			\hline 
+			&&&\\		
+			Ph.D Admission System & JAVA, Eclipse, FXML, SceneBuilder & Complete and working. Modes of payment can be implemented  & A admission system for colleges where interested Ph.Dcandidates can fill their applications which are stored. The admin can filter the applicants based on their information. \href{https://github.com/BurhanNabi/mad-admissions}{\textbf{See Reposiory}}\\ 
+			%&&&\\
+			%LED Cuboid &  C, ATMega16 Microcontroller & 80\% Complete. Made the cuboid, wrote %the code but had some connectivity issues & Wrote patterns and animations in C. %Made the cube by soldering LED's together \\ 
+			%&&&\\
+			\hline 
+			&&&\\
+		   	ZedStead - A Math Game & JAVA, Eclipse, Android & Complete. Scope for improvement. Better version on the way.  & An easy to play Android math game. Objective of the game is to arrive at the given number using the provided operations. \href{https://bitbucket.org/burhan_nabi/number-game}{\textbf{See Reposiory}}\\ 
+			\hline
+			&&&\\
+			My own blog & Ruby, Ruby On Rails, Material Design Lite, Javascript, CSS/SASS, Rubymine  & Completed. Yet to be deployed.  & The project about which I am most passionate. Love the framework. This will help me to get my views and thoughts out there in the void.
+			\href{https://bitbucket.org/burhan_nabi/blog}{\textbf{See Reposiory}}\\ 
+			\hline
+		    \end{tabular}
+		\end{center}
+		\begin{center}
+			\fontsize{13}{50}\textbf{ \textcolor{Gray}{Other public projects (and the ones above) can be found on \href{https://bitbucket.org/burhan_nabi/}{Bitbucket} and \href{https://github.com/BurhanNabi}{Github}.}}\\
+		\end{center} 
+		
+		\pagebreak
+
+	\section*{\includegraphics[width=1cm]{buttons/skills.jpg}Skills}
+		\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.3pt}}
+		
+		\begin{center}
+			$\bigstar$ = Beginner / Started learning and interested\\
+			$\bigstar$$\bigstar$ = Intermediate / Can Find My Way Around\\
+			$\bigstar$$\bigstar$$\bigstar$ = Proficient / Fast, well versed and efficient. \\
+			$\bigstar$$\bigstar$$\bigstar$$\bigstar$ = Expert / Zen Master. Ask me anything !\\
+		\end{center}
+		\begin{center}
+		    \begin{tabular}{ | p{4cm}  p{3cm} |}
+			%\begin{tabular}{l*{4}{c}r}}
+		    \hline
+		    \textbf{Skill} & \textbf{Level}\\ \hline
+		    JAVA & $\bigstar$$\bigstar$$\bigstar$\\
+		    C/C++ & $\bigstar$$\bigstar$$\bigstar$\\
+		    Ruby/Rails & $\bigstar$$\bigstar$$\bigstar$\\
+		    GIT/Version Control & $\bigstar$$\bigstar$$\bigstar$\\
+		    Linux & $\bigstar$$\bigstar$$\bigstar$\\
+		    Android Develpoment & $\bigstar$$\bigstar$\\
+		    Python & $\bigstar$$\bigstar$\\
+		    \LaTeX & $\bigstar$$\bigstar$\\
+		    JavaScript & $\bigstar$$\bigstar$\\
+		  	HTML/CSS & $\bigstar$$\bigstar$\\
+		    \hline
+		    \end{tabular}
+		\end{center}
+		%		
+		
+	\section*{\includegraphics[width=1cm]{buttons/hobbies.png}Hobbies}
+		\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.3pt}}\\
+		\vspace{10pt}
+		\begin{itemize}
+			\item \fontsize{14}{50}\textbf{ \textcolor{Gray}{Reading}}\\
+				I gobble books. There is nothing I like better than reading different kinds of books. I make it a point to read atleast 8 books a semester and usually end up reading more than that.
+			\item \fontsize{14}{50}\textbf{ \textcolor{Gray}{Writing}}\\
+				I try to write stuff that crosses my mind and try to ink the way I feel about the world on paper. I keep a journal, and about to deploy my blog soon. That'd be awesome.
+			\item 	\fontsize{14}{50}\textbf{ \textcolor{Gray}{Sports}}\\
+				I play basketball and football. I am in the college basketball team. I follow most of the happenings in the worlds of these sports. I want Liverpool to win the EPL soon. 
+			\item \fontsize{14}{50}\textbf{ \textcolor{Gray}{Travelling}}\\
+				To travel and find God, is one of my life's goal. I go camping once a semester, during the mid-semester break. This semester I went camping in Brahmatal. Great Trek, although it did get a bit cold during the nights. Loved the feeling of cooking dinner on fire after a day of hard walking and taking in beatiful sights.
+			\item \fontsize{14}{50}\textbf{ \textcolor{Gray}{Writing Fun Scripts}}\\
+				Sometimes when need demands or when I find time, I try to tinker around in my Linux Mint, and see if I can make it more productive. I wrote a \textcolor{BrickRed}{Ruby} script that gets the 'Word of the Day' from Dictionary.com and displays it everytime I open the terminal during that day. Good Stuff. \href{URL}{See Script}.
+		\end{itemize}
+		
+	\section*{\includegraphics[width=1cm]{buttons/miscellaneous.png}Miscellaneous}
+		\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.3pt}}\\
+		\begin{itemize}
+			\item
+			This CV was typeset in \LaTeX. \href{https://github.com/BurhanNabi/resume-in-latex}{See Repository}.
+			\item
+			Linux is my primary operating system. Both my laptop and desktop use only Linux OSes. No other OS installed.
+			\item
+			\href{http://www.imdb.com/title/tt0383028/}{Synecdoche, New York} is one of the greatest movies \textit{EVER}.
+		\end{itemize}
+		\centering \textbf{\textit{Thank You for looking at my CV}}.
+		
 \end{document}
